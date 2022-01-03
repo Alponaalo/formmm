@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title> create new account</title>
+    <style>
+        input{
+            color: brown;
+        }
+        h1{
+            color: coral;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>create new account</h1>
+    
+    <input type="text"placeholder="firstname">
+    <input type="text"placeholder="lastname"><br>
+    <input type="email"placeholder="email address or mobile number"><br>
+    <input type="password"placeholder="password"><br>
+    <label for="date">date of birth?</label><br>
+    <input type="date"><br>
+    <h3>gender?</h3>
+    <select name="" id="">
+        <option value="male">male</option>
+    <option value="female">female</option>
+    <option value="">custom</option>
+
+    </select>
+    <p>By clicking Sign Up, you agree to our Terms and You may receive SMS notifications from us and can opt out at any time  </p><br>
+    <input type="submit"value="Signup"><br>
+    <a href="../index.html">Already have an account?</a>
+    
+   
+</body>
+
+
+</html>
